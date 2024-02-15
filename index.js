@@ -44,7 +44,7 @@ async function run() {
             },
             {
               title: `${serviceType}`,
-              value: `Service Link: <${serviceLink}$|View Service in Console>`,
+              value: `Service Link: <${serviceLink}|View Service in Console>`,
               short: false,
             },
           ],
