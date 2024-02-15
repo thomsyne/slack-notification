@@ -4,11 +4,6 @@ inputs:
   commitUrl:
     description: 'Commit URL'
     required: true
-# outputs:
-#   username:
-#     description: 'Username for ECR login'
-#   password:
-#     description: 'Password for ECR login'
 runs:
   using: 'node16'
-  main: 'index.js'
+  main: 'dist/index.js'
