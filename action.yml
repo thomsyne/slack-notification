@@ -1,8 +1,8 @@
 name: 'Send Notification to Slack'
 description: 'Uses Legacy Incoming Webhook to send a notification to Slack'
 inputs:
-  region:
-    description: 'AWS Region'
+  commitUrl:
+    description: 'Commit URL'
     required: true
 # outputs:
 #   username:
