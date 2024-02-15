@@ -1,0 +1,14 @@
+name: 'Send Notification to Slack'
+description: 'Uses Legacy Incoming Webhook to send a notification to Slack'
+inputs:
+  region:
+    description: 'AWS Region'
+    required: true
+# outputs:
+#   username:
+#     description: 'Username for ECR login'
+#   password:
+#     description: 'Password for ECR login'
+runs:
+  using: 'node16'
+  main: 'index.js'
